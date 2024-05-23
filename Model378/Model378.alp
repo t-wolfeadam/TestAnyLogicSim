@@ -107,6 +107,139 @@
 			</ScaleRuler>
 			<CurrentLevel>1715974206499</CurrentLevel>
 			<ConnectionsId>1715974206493</ConnectionsId>
+			<Variables>
+				<Variable Class="Parameter">
+					<Id>1716484560427</Id>
+					<Name><![CDATA[sourceRate]]></Name>
+					<X>-250</X><Y>150</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[]]></Type>
+						<UnitType><![CDATA[RATE]]></UnitType>
+						<UnitOfValue Class="RateUnits"><![CDATA[PER_SECOND]]></UnitOfValue>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="RateUnits"><![CDATA[PER_SECOND]]></Unit>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1716484560425</Id>
+							<Label><![CDATA[sourceRate]]></Label>
+							<EditorContolType>UNIT_EDITOR</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1716484573734</Id>
+					<Name><![CDATA[pedRate]]></Name>
+					<X>-250</X><Y>180</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[]]></Type>
+						<UnitType><![CDATA[RATE]]></UnitType>
+						<UnitOfValue Class="RateUnits"><![CDATA[PER_SECOND]]></UnitOfValue>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="RateUnits"><![CDATA[PER_SECOND]]></Unit>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1716484573732</Id>
+							<EditorContolType>UNIT_EDITOR</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1716484598590</Id>
+					<Name><![CDATA[trainIAT]]></Name>
+					<X>-250</X><Y>210</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[]]></Type>
+						<UnitType><![CDATA[TIME]]></UnitType>
+						<UnitOfValue Class="TimeUnits"><![CDATA[SECOND]]></UnitOfValue>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeUnitValue">
+							<Code><![CDATA[10]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1716484598588</Id>
+							<EditorContolType>UNIT_EDITOR</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1716484612821</Id>
+					<Name><![CDATA[carRate]]></Name>
+					<X>-250</X><Y>240</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[]]></Type>
+						<UnitType><![CDATA[RATE]]></UnitType>
+						<UnitOfValue Class="RateUnits"><![CDATA[PER_SECOND]]></UnitOfValue>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="RateUnits"><![CDATA[PER_SECOND]]></Unit>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1716484612819</Id>
+							<EditorContolType>UNIT_EDITOR</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1716484620585</Id>
+					<Name><![CDATA[fluidRate]]></Name>
+					<X>-250</X><Y>270</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[]]></Type>
+						<UnitType><![CDATA[FLOW_RATE]]></UnitType>
+						<UnitOfValue Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></UnitOfValue>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeUnitValue">
+							<Code><![CDATA[10]]></Code>
+							<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1716484620583</Id>
+							<EditorContolType>UNIT_EDITOR</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+			</Variables>
 			<Connectors>
 				<Connector>
 					<Id>1715974216593</Id>
@@ -1059,6 +1192,10 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[sourceRate(PER_SECOND)]]></Code>
+								<Unit Class="RateUnits"><![CDATA[PER_SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[interarrivalTime]]></Name>
@@ -1579,7 +1716,7 @@
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[1]]></Code>
+								<Code><![CDATA[pedRate(PER_SECOND)]]></Code>
 								<Unit Class="RateUnits"><![CDATA[PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -1899,7 +2036,7 @@
 						<Parameter>
 							<Name><![CDATA[interarrivalTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[trainIAT(SECOND)]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -2296,7 +2433,7 @@
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[1]]></Code>
+								<Code><![CDATA[carRate(PER_SECOND)]]></Code>
 								<Unit Class="RateUnits"><![CDATA[PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -2600,7 +2737,7 @@
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[10]]></Code>
+								<Code><![CDATA[fluidRate(CUBIC_METER_PER_SECOND)]]></Code>
 								<Unit Class="FlowRateUnits"><![CDATA[CUBIC_METER_PER_SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -5101,6 +5238,21 @@
 			</Presentation>
 
 			<Parameters>			
+				<Parameter>
+					<ParameterName><![CDATA[sourceRate]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[pedRate]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[trainIAT]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[carRate]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[fluidRate]]></ParameterName>
+				</Parameter>
 			</Parameters>			
 			<PresentationProperties>
 				<EnableZoomAndPanning>true</EnableZoomAndPanning>
