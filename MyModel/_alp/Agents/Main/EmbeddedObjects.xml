@@ -2683,6 +2683,10 @@
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[delayTime]]></Name>
+				<Value Class="CodeUnitValue">
+					<Code><![CDATA[getServiceTime(agent)]]></Code>
+					<Unit Class="TimeUnits">SECOND</Unit>
+				</Value>
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[sendResources]]></Name>
